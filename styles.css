@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    background-color: tan;
+}
+
+div {
+    color: #836953;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    background-color: tan;
+    color: #836953;
+    padding: 8px;
+}
+
+.subtitle {
+    background-color: wheat;
+    text-align: center;
+    color: #836953;
+    padding: 8px;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    
+}
+
+#rock, #paper, #scissors {
+    margin: 12px auto;
+    border: none;
+    background-color: moccasin; 
+    padding: 8px;
+    border-radius: 12px;
+    color: #836953;
+    width: 80px;
+
+}
+
+.scoreTitle {
+    background-color: peachpuff;
+    padding: 8px auto;
+    text-align: center;
+    color: #836953;
+}
+
+.resultsTitle {
+    background-color: peachpuff;
+    padding: 8px auto;
+    text-align: center;
+    color: #836953;
+}
+
+.scores, .results {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    
+
+}
+
+
+.player, .playerResult {
+    background-color: beige;
+    text-align: center;
+}
+
+.computer, .computerResult {
+    background-color: wheat;
+    text-align: center;
+}
+
+.restartButton {
+    margin: 12px auto;
+    border: none;
+    background-color: moccasin; 
+    padding: 8px;
+    border-radius: 12px;
+    color: #836953;
+    width: 80px;
+    display: grid;
+
+}
